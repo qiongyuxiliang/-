@@ -156,12 +156,12 @@ margin-bottom: 12px;
 .detail ul li span:nth-of-type(1){
 	display: block;
 	color: #F2624D;
-	height: 14px;
+	height: 16px;
 	margin-top:6px;
 	margin-bottom: 10px;
 	font-size: 16px;
 	overflow: hidden;
-	line-height: 14px;
+	line-height: 16px;
 	vertical-align: top;
 }
 
