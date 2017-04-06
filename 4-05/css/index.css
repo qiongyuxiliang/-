@@ -35,12 +35,15 @@ body{
 }
 /*导航*/
 .na{
-	position: relative;
+	top: 0;
+	position: fixed;
 	width: 100%;
 	background: #71C3C8;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
+	z-index: 9999;
+	zoom*:1;
 
 }
 .arrow{
@@ -55,8 +58,12 @@ body{
     font-size: 110%
 }
 /*主题图片*/
+.container{
+	margin-top: 50px;
+}
 .theme_jpg{
 	width: 100%;
+	display: block;
 }
 /*购买服务*/
 .buy_service{
@@ -64,7 +71,7 @@ body{
 }
 .vip_three_month{
 position: relative;
-box-shadow: 1.5px 1.5px #434c53;
+box-shadow: 0  2px 0 1px #B45041;
 margin: 0 auto;
 background: #FFEB5E;
 width: 100%;
@@ -112,7 +119,7 @@ margin-bottom: 12px;
 	position: absolute;
 	width: 25%;
 	color: #fff;
-	box-shadow: 1px 1px  #434c53;
+	box-shadow: 0px 1px 0 1px #B45041;
 	background: #F2624D;
 	display: inline-block;
 	line-height: 33px;
@@ -159,8 +166,8 @@ margin-bottom: 12px;
 	display: block;
 	color: #F2624D;
 	height: 16px;
-	margin-top:6px;
-	margin-bottom: 10px;
+	margin:6px 0 10px 0;
+
 	font-size: 16px;
 	overflow: hidden;
 	line-height: 16px;
@@ -215,6 +222,7 @@ margin-bottom: 12px;
 .prize_list .list li span{
 	color:#F2624D ;
 	display: inline-block;
+	width: 25%;
 	margin-right: 12px;
 
 }
@@ -228,8 +236,17 @@ text-align: center;
 border-radius: 25px; 
 color:#F2624D; 
 margin-top: 12px;
-    font-weight: bold;
+display: block;
+font-weight: bold;
+box-shadow: /*2px 0 0 1px #B45041,
+            -2px 0 0 1px #B45041,*/
+            0  2px 0 1px #B45041;
+
 }
 .outer{
 	padding-bottom: 24px;
 }
+
+
+
+
