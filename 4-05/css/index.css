@@ -111,6 +111,7 @@ margin-bottom: 12px;
 .buy{
 	position: absolute;
 	width: 25%;
+	color: #fff;
 	box-shadow: 1px 1px  #434c53;
 	background: #F2624D;
 	display: inline-block;
@@ -118,6 +119,7 @@ margin-bottom: 12px;
 	text-align: center;
 	margin-left: 7%;
 	border-radius: 16px;
+	font-size: 14px;
 	right: 2%;
 	top:50%;
 	transform: translateY(-50%);	
@@ -187,7 +189,7 @@ margin-bottom: 12px;
 }
 .prize_list{
 	overflow: hidden;
-	position: relative;
+	/*position: relative;*/
 	width: 100%;
 	margin: 0 auto;
 	background: #fff;
@@ -199,7 +201,7 @@ margin-bottom: 12px;
 	height: 177px;
 }
 .prize_list .list{
-	position: absolute;
+	/*position: absolute;*/
 	/* top: 0; */
 	/* height: 120px; */
 	height: 177px;
@@ -226,6 +228,7 @@ text-align: center;
 border-radius: 25px; 
 color:#F2624D; 
 margin-top: 12px;
+    font-weight: bold;
 }
 .outer{
 	padding-bottom: 24px;
